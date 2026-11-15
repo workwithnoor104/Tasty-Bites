@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:  'Poppins',sans-serif ;
+    background-color: #202020;
+     background-image: 
+    
+     url(ilya-mashkov-_qxbJUr9RqI-unsplash.jpg);
+     
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
+
+#Logo{
+  font-size: 4vw;
+  padding: 20px;
+  padding-right: 20vh;
+  font-family: 'Poppins',sans-serif;
+   color: #f7b538;
+}
+#navbar{
+    display:flex;
+    flex-direction:row;
+    align-content: flex-end;
+    justify-content: space-around;
+    background-color: #202020;
+    border-bottom: 1px solid #f7b538;
+    
+}
+.btn{
+    padding: 1.5vh;
+    margin: 2vw;
+    justify-content: right;
+    align-items: center;
+    border: none;
+    justify-content: space-around;
+    background-color: #202020;
+    font-size: 1.1vw;
+    font-family: 'Poppins',sans-serif;
+    color: #fff8f0;
+    border-radius: 8px;
+}
+.btn:hover{
+    color: #202020;
+    background-color: #f7b538;
+}
+
+.hero{
+  font-family:  'Poppins',sans-serif;
+  color: #fff8f0;
+   padding: 5rem;
+   margin: 2rem;
+   border-radius: 10px;
+   width: 20vw;
+   font-size: 1.5vw;
+}
+#heading{
+    color: #f7b538;
+}
+#heading2{
+    color: #fff8f0;
+    font-family: 'Poppins',sans-serif;
+    margin-left: 5vw;
+    font-size: 3vw;
+}
+.img{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  width:80vw;
+  margin: 4rem;
+}
+
+  
+
+#img1{
+    background-image:url(shourav-sheikh-a66sGfOnnqQ-unsplash.jpg) ;
+    height: 40vh;
+    width: 20vw;
+    background-size: cover;
+    border-radius: 10px;
+   
+}
+#outer1{
+    height: 70vh;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: #fff8f0;
+    margin: 0.5vw;
+    font-size: 1.25vw;
+}
+#img2{
+    background-image: url(kevin-kevin-nwmZhwOSVnM-unsplash.jpg);
+    height: 40vh;
+    width: 20vw;
+    background-size: cover;
+    border-radius: 10px;
+    
+    
+}
+#outer2{
+    height: 70vh;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: #fff8f0;
+    margin: 0.5vw;
+    font-size: 1.25vw;
+}
+#img3{
+    background-image: url(eiliv-aceron-Z7X1PPL_r2k-unsplash.jpg);
+    height: 40vh;
+    width: 20vw;
+    background-size: cover;
+    border-radius: 10px;
+   
+}
+#outer3{
+    height: 70vh;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: #fff8f0;
+    margin: 0.5vw;
+    font-size: 1.25vw;
+}
+#img4{
+    background-image: url(aleksandra-tanasiienko-0y6eMd8vevA-unsplash.jpg);
+    height: 40vh;
+    width: 20vw;
+    background-size: cover;
+    border-radius: 10px;
+  
+}
+#outer4{
+    height: 70vh;
+    width: 20vw;
+    border-radius: 10px;
+    background-color: #fff8f0;
+    margin: 0.5vw;
+    font-size: 1.25vw;
+}
+.text{
+    margin:0.5vw;
+    font-family: sans-serif;
+}
+.ord-btn{
+    margin:1.5vw;
+    padding:1.5vw;
+    background-color: #f7b538;
+    border-radius: 10px;
+    color: #202020;
+    border: none;
+    font-size: 1.1vw;
+}
+#exp-btn{
+    margin:1.5vw;
+    padding:1.5vw;
+    background-color: #f7b538;
+    border-radius: 10px;
+    color: #202020;
+    border: none;
+    margin-top: 2vh;
+    font-family: 'Poppins',sans-serif;
+    font-size: 1.5vw;
+}
+footer{
+    background-color: #202020;
+    height: 58vh;
+    width: 99vw;
+    border-top:1px solid #f7b538 ;
+    color: #f7b538;
+}
+#info{
+    display:flex;
+    margin: 1.5vw;
+}
+#tagline{
+   height: 30vh; 
+   width: 40vw;
+   font-size: 1.5vw;
+}
+#links{
+    height: 30vh;
+    width: 20vw;
+    font-size: 1.5vw;
+}
+#contact{
+    height: 30vh;
+    width: 20vw;
+    font-size: 1.5vw;
+}
+#Logo2{
+  font-size: 4vw;
+  padding: 20px;
+  padding-right: 20vh;
+  font-family: 'Poppins',sans-serif;
+   color: #f7b538;
+}
+.head{
+    font-size: 2vw;
+}
+#copyright{
+    margin: 5vw;
+    font-size: 1.5vw;
+}
+@media(max-width:768px){
+   
+    #outer1{
+        height: 40vh;
+    }
+    #outer2{
+        height: 40vh;
+    }
+    #outer3{
+        height: 40vh;
+    }
+    #outer4{
+        height: 40vh;
+    }
+    #img1{
+        height: 20vh;
+    }
+    #img2{
+        height: 20vh;
+    }
+    #img3{
+        height: 20vh;
+    }
+    #img4{
+        height: 20vh;
+    }
+    body{
+       background-image: url(barcello-s-fusion-Sj6oEgQGZBY-unsplash.jpg);
+    }
+}
